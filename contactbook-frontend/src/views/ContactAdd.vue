@@ -31,7 +31,7 @@
             };
         },
 
-        methods: {
+        methods: {  
             async createContact(data) {
                 try {
                     await contactService.create(data);
