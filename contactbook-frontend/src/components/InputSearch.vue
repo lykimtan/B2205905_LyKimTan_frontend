@@ -21,8 +21,16 @@ export default {
             @input="updateModelValue" @keyup.enter="submit" />
         <div class="input-group-append">
             <button class="btn btn-outline-secondary" type="button" @click="submit">
-                🔎 Tìm kiếm
+                <i class="fa-solid fa-magnifying-glass"></i>
+                 Tìm kiếm
             </button>
         </div>
     </div>
 </template>
+
+<style>
+.icon {
+    width: 20px;
+    height: 20px;
+}
+</style>

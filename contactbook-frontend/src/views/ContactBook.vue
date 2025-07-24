@@ -17,7 +17,7 @@
 
             <div class="mt-3 row justify-content-around align-items-center">
                 <button class="btn btn-sm btn-primary" @click="refreshList()">
-                    🔂
+                    <i class="fa-solid fa-arrow-rotate-right"></i>
                     Làm mới
                 </button>
 
@@ -27,7 +27,7 @@
                 </button>
 
                 <button class="btn btn-sm btn-danger" @click="removeAllContacts">
-                    🗑️
+                    <i class="fa-solid fa-trash"></i>
                     Xoá tất cả
                 </button>
             </div>
